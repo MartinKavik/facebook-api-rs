@@ -113,16 +113,16 @@ impl InstagramApi {
 /// ```
 #[derive(Deserialize, Clone, Debug, Default)]
 pub struct InstagramAccount {
-    pub biography: String,
+    pub biography: Option<String>,
     pub id: String,
     pub followers_count: u32,
     pub follows_count: u32,
     // #[serde(default = 0)]
     pub media_count: u32,
     pub name: String,
-    pub profile_picture_url: String,
+    pub profile_picture_url: Option<String>,
     pub username: String,
-    pub website: String,
+    pub website: Option<String>,
 }
 
 struct Fields {
