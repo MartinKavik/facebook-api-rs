@@ -28,7 +28,7 @@ pub struct Client {
 /// Empty Client
 impl Default for Client {
     fn default() -> Self {
-        let graph = "https://graph.facebook.com/v13.0/NODE/EDGE".to_string();
+        let graph = "https://graph.facebook.com/v16.0/NODE/EDGE".to_string();
         Self {
             graph,
             short_live_user_access_token: "".to_string(),

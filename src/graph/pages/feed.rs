@@ -210,15 +210,15 @@ pub enum CallToActionType {
 /// automatically supplied based on the og_object_id.
 pub struct Feeling {
     /// An action, i.e., feeling, watching, etc.
-    /// Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v13.0/page/feed/feelings#actions>
+    /// Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v16.0/page/feed/feelings#actions>
     og_action_type_id: String,
 
     /// An icon perhaps representing the action type, i.e., a smiley face, a
-    /// movie icon, etc. Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v13.0/page/feed/feelings#actions>
+    /// movie icon, etc. Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v16.0/page/feed/feelings#actions>
     og_icon_id: String,
 
     /// An object_id can be any page_id or a predefined object. Feelings
-    ///    Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v13.0/page/feed/feelings#actions>
+    ///    Each feeling is represented by an id. The id can be found  <https://developers.facebook.com/docs/graph-api/reference/v16.0/page/feed/feelings#actions>
     og_object_id: String,
 }
 

@@ -1,7 +1,7 @@
 //! This methods lets you perform operation to facebook pages photos API.
 //! It support  publishing and  get all photos in by page_id.
 //! Note:: it does not allow  getting a single post, updating nor deleting. Use
-//! other method for that. For information on different opertaions on facebook page  check  <https://developers.facebook.com/docs/graph-api/reference/v13.0/page/photos>
+//! other method for that. For information on different opertaions on facebook page  check  <https://developers.facebook.com/docs/graph-api/reference/v16.0/page/photos>
 
 use crate::graph::data::Data;
 use crate::prelude::errors::ClientErr;
